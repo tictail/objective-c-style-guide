@@ -54,15 +54,16 @@ UIApplication.sharedApplication.delegate;
 
 ## Spacing
 
-* Indent using 4 spaces. Never indent with tabs. Be sure to set this preference in Xcode.
-* Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
+* Indent using 2 spaces. Never indent with tabs. Be sure to set this preference in Xcode.
+* Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open and close on the same line as the statement.
 
 **For example:**
 ```objc
 if (user.isHappy) {
 //Do something
-}
-else {
+} else if {
+//Do something else
+} else {
 //Do something else
 }
 ```
